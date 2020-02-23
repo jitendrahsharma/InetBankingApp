@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [InetBanking]">
+  <parameter name="browser" value="firefox"/>
+  <test name="Banking App Test(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.inetbanking.testCase.TC_LoginTest_001">
+        <methods>
+          <include name="setup"/>
+          <include name="loginTest"/>
+        </methods>
+      </class> <!-- com.inetbanking.testCase.TC_LoginTest_001 -->
+    </classes>
+  </test> <!-- Banking App Test(failed) -->
+</suite> <!-- Failed suite [InetBanking] -->

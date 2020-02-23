@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="InetBankingApp" duration-ms="133" started-at="2020-01-26T14:39:29Z" finished-at="2020-01-26T14:39:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="133" started-at="2020-01-26T14:39:29Z" finished-at="2020-01-26T14:39:30Z">
+      <class name="com.inetbanking.testCase.TC_LoginTest_001">
+        <test-method status="FAIL" signature="setup(java.lang.String)[pri:0, instance:com.inetbanking.testCase.TC_LoginTest_001@19963d8]" name="setup" is-config="true" duration-ms="0" started-at="2020-01-26T20:09:29Z" finished-at="2020-01-26T20:09:29Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Jitendra\AppData\Local\Temp\testng-eclipse-553076879\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Configuration on method setup but has not been marked @Optional or defined
+in C:\Users\Jitendra\AppData\Local\Temp\testng-eclipse-553076879\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:156)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:362)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:87)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:201)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:140)
+	at org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:170)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:104)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:617)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:126)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:137)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:58)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.inetbanking.testCase.TC_LoginTest_001@19963d8]" name="loginTest" duration-ms="41" started-at="2020-01-26T20:09:30Z" finished-at="2020-01-26T20:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.inetbanking.testCase.TC_LoginTest_001@19963d8]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-01-26T20:09:30Z" finished-at="2020-01-26T20:09:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.inetbanking.testCase.TC_LoginTest_001 -->
+    </test> <!-- Default test -->
+  </suite> <!-- InetBankingApp -->
+</testng-results>
